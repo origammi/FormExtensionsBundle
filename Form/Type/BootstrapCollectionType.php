@@ -25,7 +25,7 @@ class BootstrapCollectionType extends AbstractType
 
     public function buildForm(FormBuilderInterface $builder, array $options)
     {
-        $builder->addEventSubscriber(new ReorderCollectionSubscriber());
+        //$builder->addEventSubscriber(new ReorderCollectionSubscriber());
 
         parent::buildForm($builder, $options);
     }
